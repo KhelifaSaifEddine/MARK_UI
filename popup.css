@@ -1,0 +1,33 @@
+.section-popup{
+    position: fixed;
+    margin: auto;
+    flex-direction: column;
+    top: 30%;
+    bottom: 20%;
+  
+    padding-top: 2%;
+    width: 960px;
+    height: 540px;
+background-image: url("./images/Popup/Background_Popup.png");    font-size: 25px;
+    z-index: 5;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Bitter', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  display: none;
+}
+.section-popup.open{
+    display: flex;
+}
+.section-popup > div{
+    display: flex;
+    gap: 60px;
+ 
+}
+.section-popup > p{
+    color: #c4a07b;
+    font-weight: bold;
+    font-size: 45px;
+   
+ }

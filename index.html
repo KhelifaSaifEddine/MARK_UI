@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player_STATS</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="stats.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+    <!-- CSS FOR THE BODY CAN BE FOUND IN main.css-->
+<body>
+    <!-- CSS FOR THE HEADER PART CAN BE FOUND IN header.css-->
+    <header>
+        <nav>
+            <a href="##">STATS</a> <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="#">QUEST</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="###">DUNGEON</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="####">CHAT</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            <a href="#####">GALLERY</a>  <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+        </nav>
+        <section>
+            <div class = "icon-nav-bar">
+              
+                <img src="images/Header_Elements/04 streak.png" alt="image of streak">
+                <p id ="streaks">183</p>  <!--YOU CAN CHANGE THIS USING JAVASCRIPT INNERHTML/TEXTCONTENT TO FILL NUMBERS-->
+            </div>
+
+            <div class = "icon-nav-bar">
+                <img src="images/Header_Elements/05 quests.png" alt="image of quest stone">
+                <p id ="quests">153</p> <!--YOU CAN CHANGE THIS USING JAVASCRIPT INNERHTML/TEXTCONTENT TO FILL NUMBERS-->
+
+            </div>
+
+            <div class = "icon-nav-bar">
+               
+                <img src="images/Header_Elements/06 fire stones.png" alt="image of fire stone">
+                <p id ="stones" >155</p> <!--YOU CAN CHANGE THIS USING JAVASCRIPT INNERHTML/TEXTCONTENT TO FILL NUMBERS-->
+            </div>
+
+            <div class = "icon-nav-bar-avatar">
+                <img src="images/Header_Elements/Avatar.png" alt="">
+            </div>
+
+        </section>
+    </header>
+    <main>
+        <section  class="section-popup">
+            <p>CONTINUE QUEST</p>
+        <div>
+            <div>
+                <img src="images/Popup/btn Upload.png" alt="">
+                <p>Upload</p>
+            </div>
+            <div>
+                <img src="images/Popup/btn Quest.png" alt="">
+                <p>Quests</p>
+            </div>
+            <div>
+                <img src="images/Popup/btn Dungeons.png" alt="">
+                <p>Dungeons</p>
+            </div>
+        </div>
+        </section>
+        
+        <!--THIS SECTION IS FOR PLAYER STATS , CSS FOR THIS PART CAN BE FOUND IN stats.css-->
+        <section class="section-player-stats">
+            <div class="status">
+                <canvas id="canvas"></canvas>
+                <h1>MARK DIAZ</h1>
+                <img class = "level" src="images/Status_Elements/level.png" alt="">
+                <div class ="status-level-text">
+                    <p>
+                        lv.12
+                    </p>
+                </div>
+              
+                <div class ="status-progress-text">
+                    <p>
+                        9,984/11,505 XP
+                    </p>
+ 
+                </div>
+                <div class ="status-streaks-text">
+                    <p>
+                        183
+                    </p>
+                    <p>
+                        Daily Streak
+                    </p>
+                </div>
+                <img class="streak" src="images/Status_Elements/streak.png" alt="">
+                <div class = "icon-status-avatar">
+                    <img src="images/Header_Elements/Avatar.png" alt="">
+                </div>
+                <!--               -->
+                <img class ="big_circle" src="images/Status_Elements/Circle_big.png" alt="">
+
+                <img class ="small_circle" src="images/Status_Elements/Circle_small.png" alt="">
+                
+                <img class ="strike_circle" src="images/Status_Elements/Circle_Strike.png" alt="">
+               
+                <img class="bar" src="images/Status_Elements/bar.png" alt="">
+                
+               <a href="#####">EDIT PROFILE</a> <!--YOU CAN ADD LINKS TO EXTERNAL DOCUMENTS HERE-->
+            </div>
+            <div class="photos-buttons">
+                <!---NEED JS TO ADD PHOTOS DYNAMICALLY-->
+    
+                <div class="photos">
+                    <img src="images/Status_Elements/Photo.png" alt="">
+                    <img src="images/Status_Elements/Photo1.png" alt="">
+                    <img src="images/Status_Elements/Photo2.png" alt="">
+                </div>
+                <div class="buttons">
+                    <p >LATEST UPDATE</p>
+                    <img src="images/Status_Elements/BTN Gallery.svg" alt="">
+                    <img src="images/Status_Elements/BTN_EXPORT_Gallery.svg" alt="">
+
+                </div>
+
+
+            </div>
+        </section>
+         <!--THIS SECTION IS FOR BUTTON CONTINUE QUEST , CSS FOR THIS PART CAN BE FOUND IN stats.css-->
+        <section class="section-player-button">
+            <img class = "button  " style="position: absolute;" src="./images/Hover_Button.png" alt="">
+
+            <img class = "button active " src="./images/Quest_btn.png" alt="">
+            <p class="continue-quest-text">CONTINUE QUEST</p>
+  
+            </button> 
+        </section>
+         <!--THIS SECTION IS FOR CHARACTER + CALENDAR STUFF , CSS FOR THIS PART CAN BE FOUND IN content.css-->
+        <section class="section-player-details">
+            <div class ="background-content"></div>
+            <div class ="background-content-borders"></div>
+            <!----THIS SECTION CONTAINS CALANDAR + PLAYER STATUS-->
+            <img src="images/Content_Elements/Character.png" alt="">
+
+            <div  class="details-calendar">
+
+                <!----DETAILS ABOUT PLAYER STATUS-->
+                <div class="content-grid-status">
+                    <div class="content-grid-status-item1">
+                        <p class="grid-first">Myelin Stones</p>
+                        <img src="images/Content_Elements/Myelin_Stones.png" alt="">
+                        <p class="grid-last">12</p>
+                    </div>
+                    <div class="content-grid-status-item2">
+                        <p class="grid-first">Fire Stones</p>
+                        <img src="images/Content_Elements/Fire_Stones.png" alt="">
+                        <p class="grid-last">15</p>
+                    </div>
+                    <div class="content-grid-status-item3">
+                        <p class="grid-first">Willpower</p>
+                        <img src="images/Content_Elements/Will_Power.png" alt="">
+                        <p class="grid-last">12</p>
+                    </div>
+                    <div class="content-grid-status-item4">
+                        <p class="grid-first">Monsters Defeated</p>
+                        <img src="images/Content_Elements/monsters.png" alt="">
+                        <p class="grid-last">1258</p>
+                    </div>
+                    <div class="content-grid-status-item5">
+                        <p class="grid-first">Dungeons Completed</p>
+                        <img src="images/Content_Elements/dungeons.png" alt="">
+                        <p class="grid-last">1542</p>
+                    </div>
+                </div>
+           
+                <!----CALENDAR DIV-->
+                <div id ="calendar">                </div>
+
+            </div >
+            <!----THIS IMAGE for the CHARACTER OF PLAYER-->
+     
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="hug.js"></script>
+    <script src="calendar.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

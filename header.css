@@ -1,0 +1,68 @@
+header{
+height: 68px;
+width: 100vw;
+  font-family: 'Bitter', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("./images/Header.png");
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header section{
+    display: flex;
+  }
+  
+  nav{
+    display: flex;
+  
+    align-self: center;
+  }
+  .icon-nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 22px 30px 17px 0px;
+  }
+  .icon-nav-bar p{
+    padding: 0px 0px 0px 10px;
+   
+  }
+  .icon-nav-bar-avatar{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .icon-nav-bar-avatar img{
+    margin: 20px 0px 15px 0px;
+    border-radius: 50%;
+    background-color: #261717;
+  }
+  
+  #streaks{
+    color: #ffe078;
+  }
+  
+  #quests {
+    color: #31a3f9;
+  }
+  #stones {
+    color:#d6ba0d ;
+  }
+  
+
+  nav a{
+ 
+    text-decoration: none;
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+    
+    font-size: 11pt;
+    border-left : 0.05px solid #131117;
+    border-right : 0.1px solid #131117;
+    color: white;
+  
+  }
+  nav a:hover{
+    background-image: linear-gradient(0deg,#27424f,#282828);
+  }
+
+ 

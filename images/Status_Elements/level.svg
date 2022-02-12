@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="445" height="445" viewBox="0 0 89 89">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #342d3c;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+        stroke: url(#linear-gradient);
+        filter: url(#filter);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="44" y1="79.5" x2="44" y2="8.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9c6e3f"/>
+      <stop offset="0.292" stop-color="#e0aa60"/>
+      <stop offset="0.732" stop-color="#b38250"/>
+      <stop offset="1" stop-color="#e8b064"/>
+    </linearGradient>
+    <filter id="filter" x="2" y="2" width="85" height="85" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-color="#724a18"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2.333" in="SourceAlpha"/>
+      <feComposite result="composite-2"/>
+      <feComposite result="composite-3"/>
+      <feComposite result="composite-4"/>
+      <feFlood result="flood-2" flood-opacity="0.1"/>
+      <feComposite result="composite-5" operator="in" in2="composite-4"/>
+      <feBlend result="blend" in2="composite"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-3" stdDeviation="4.667" in="SourceAlpha"/>
+      <feFlood result="flood-3" flood-color="#3899d1" flood-opacity="0.15"/>
+      <feComposite result="composite-7" operator="out" in2="blur-3"/>
+      <feComposite result="composite-6" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-3" in2="blend-2"/>
+      <feGaussianBlur result="blur-4" stdDeviation="2.828" in="SourceAlpha"/>
+      <feFlood result="flood-4" flood-opacity="0.5"/>
+      <feComposite result="composite-8" operator="out" in2="blur-4"/>
+      <feOffset result="offset-2"/>
+      <feComposite result="composite-9" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-4" in2="blend-3"/>
+      <feGaussianBlur result="blur-5" in="SourceAlpha"/>
+      <feFlood result="flood-5" flood-opacity="0.2"/>
+      <feComposite result="composite-10" operator="out" in2="blur-5"/>
+      <feOffset result="offset-3" dy="4"/>
+      <feComposite result="composite-11" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-5" in2="blend-4"/>
+    </filter>
+  </defs>
+  <g style="fill: #342d3c; filter: url(#filter)">
+    <circle id="level" class="cls-1" cx="44" cy="44" r="35.5" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#level" style="stroke: url(#linear-gradient); filter: none; fill: none"/>
+</svg>

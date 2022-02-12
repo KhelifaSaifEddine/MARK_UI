@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-image: url("./images/Background.png");
+  background-size: cover;
+  margin: 0;
+  position: relative;
+}
+.checked {
+  background: yellow;
+}
+main {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+main section{
+  width: 1280px;
+  display: flex;
+   
+
+  margin-top: 40px;
+}
+main section:nth-last-child(1) {
+  margin-bottom: 40px;
+}
+
+
+.section-player-button {
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+
+  font-family: 'Bitter', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.continue-quest-text{
+  position: absolute;
+  font-size: 20px;
+  text-shadow: 0 0 10px #FFFFFF;
+  pointer-events:none;
+
+}
+.button{
+
+ opacity: 0;
+}
+.button.active {
+  opacity: 1;
+
+  
+}
